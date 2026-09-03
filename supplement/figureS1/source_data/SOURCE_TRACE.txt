@@ -1,0 +1,7 @@
+Supplementary Figure 1 source-data traceability
+===============================================
+The manuscript-used Figure S1 display is included in final_outputs/FigureS1.pdf.
+The exact processed promoter-profile tables were not present in the private release tree and are therefore not claimed as bundled source data.
+The underlying ChIP-seq is traceable to GEO accession GSE318271, and the RNA-seq rank-band assignment is traceable to GSE318584 (SuperSeries GSE318586).
+If GEO is private during review, anonymous reviewer tokens are supplied confidentially through Editorial Manager and are never stored in GitHub.
+See GEO_TRACE.tsv for assay-level provenance and reproduction routing.

@@ -1,0 +1,16 @@
+{
+  "input": "data/processed/raw_counts_rsemgenes.tsv",
+  "sample_sheet": "config/sample_sheet.csv",
+  "output": "core/outputs/tables/rank_geometry_expression_gene_by_sample.csv",
+  "matrix_type": "raw_counts",
+  "normalization": "median_ratio",
+  "size_factor_method": "median_ratio_all_positive_genes",
+  "min_total_count": 80.0,
+  "filter_applied": true,
+  "transform": "log2p1",
+  "n_genes_initial": 36604,
+  "n_genes_written": 17430,
+  "n_samples": 32,
+  "scale_label": "log2(size-factor-normalized RSEM expected count + 1)",
+  "size_factors_file": "core/outputs/tables/rank_geometry_size_factors.csv"
+}

@@ -1,0 +1,9 @@
+Figure 2 normalized expression matrix
+Script version: 2026-06-12 v39 (prepare size-factor-normalized RSEM expected counts for Figure 2)
+Input counts: ./data/processed/raw_counts_rsemgenes.tsv
+Normalization: median-ratio size factors (positive-count geometric means)
+Filter: total expected counts >= 80
+Genes before filter: 36604
+Genes after filter: 17430
+Output matrix: ./figure2/results_fig2_teto19_weighted_FINAL/FIGURE2_EXPRESSION_INPUTS/Fig2_expression_normcounts.tsv
+Size factors: ./figure2/results_fig2_teto19_weighted_FINAL/FIGURE2_EXPRESSION_INPUTS/Fig2_expression_size_factors.tsv

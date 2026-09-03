@@ -1,0 +1,13 @@
+.DS_Store
+._*
+__MACOSX/
+__pycache__/
+*.py[cod]
+*.Rhistory
+*.RData
+*.bak
+*~
+logs/
+*.log
+figure2/data/promoters_2kb.fa
+figure3/differential_expression/source_data/figure3_unified_de_results_used.tsv

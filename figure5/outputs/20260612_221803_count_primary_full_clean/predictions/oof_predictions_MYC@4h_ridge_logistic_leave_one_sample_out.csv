@@ -1,0 +1,13 @@
+sample_id,legacy_position,group_label,time_h,dox,myc,cpt_level,replicate,background_context,label_text,label,task_name,context_value,context_col,pred_label,pred_label_text,pred_score,fold_id,correct,model_name,cv_scheme
+13_4D_H_CPT_RP1,13,4D_H_CPT,4,Dox,None_MYC,HCPT,1,HCPT,None_MYC,0,MYC@4h,HCPT,cpt_level,0,None_MYC,0.4055280568,1,True,ridge_logistic,leave_one_sample_out
+15_4D_H_CPT_RP2,15,4D_H_CPT,4,Dox,None_MYC,HCPT,2,HCPT,None_MYC,0,MYC@4h,HCPT,cpt_level,0,None_MYC,0.2636435785,2,True,ridge_logistic,leave_one_sample_out
+14_4DT_H_CPT_RP1,14,4DT_H_CPT,4,Dox,MYC,HCPT,1,HCPT,MYC,1,MYC@4h,HCPT,cpt_level,1,MYC,0.8368422159,3,True,ridge_logistic,leave_one_sample_out
+16_4DT_H_CPT_RP2,16,4DT_H_CPT,4,Dox,MYC,HCPT,2,HCPT,MYC,1,MYC@4h,HCPT,cpt_level,1,MYC,0.7836668835,4,True,ridge_logistic,leave_one_sample_out
+9_4D_L_CPT_RP1,9,4D_L_CPT,4,Dox,None_MYC,LCPT,1,LCPT,None_MYC,0,MYC@4h,LCPT,cpt_level,0,None_MYC,0.2515819415,5,True,ridge_logistic,leave_one_sample_out
+11_4D_L_CPT_RP2,11,4D_L_CPT,4,Dox,None_MYC,LCPT,2,LCPT,None_MYC,0,MYC@4h,LCPT,cpt_level,0,None_MYC,0.2828823811,6,True,ridge_logistic,leave_one_sample_out
+10_4DT_L_CPT_RP1,10,4DT_L_CPT,4,Dox,MYC,LCPT,1,LCPT,MYC,1,MYC@4h,LCPT,cpt_level,1,MYC,0.6201441288,7,True,ridge_logistic,leave_one_sample_out
+12_4DT_L_CPT_RP2,12,4DT_L_CPT,4,Dox,MYC,LCPT,2,LCPT,MYC,1,MYC@4h,LCPT,cpt_level,1,MYC,0.8591100561,8,True,ridge_logistic,leave_one_sample_out
+5_4D_RP1,5,4D,4,Dox,None_MYC,None_CPT,1,baseline_background,None_MYC,0,MYC@4h,None_CPT,cpt_level,0,None_MYC,0.1311238086,9,True,ridge_logistic,leave_one_sample_out
+7_4D_RP2,7,4D,4,Dox,None_MYC,None_CPT,2,baseline_background,None_MYC,0,MYC@4h,None_CPT,cpt_level,0,None_MYC,0.07520530548,10,True,ridge_logistic,leave_one_sample_out
+6_4DT_RP1,6,4DT,4,Dox,MYC,None_CPT,1,MYC_background,MYC,1,MYC@4h,None_CPT,cpt_level,1,MYC,0.9577360432,11,True,ridge_logistic,leave_one_sample_out
+8_4DT_RP2,8,4DT,4,Dox,MYC,None_CPT,2,MYC_background,MYC,1,MYC@4h,None_CPT,cpt_level,1,MYC,0.8639868577,12,True,ridge_logistic,leave_one_sample_out

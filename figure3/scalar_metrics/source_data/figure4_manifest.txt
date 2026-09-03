@@ -1,0 +1,9 @@
+created: 2026-06-15 14:15:56.41578
+counts: ./data/processed/raw_counts_rsemgenes.tsv
+contrast_order: D_vs_Ctrl_4h, Tam_vs_Ctrl_4h, DT_vs_D_4h, D_L_CPT_vs_D_4h, DT_L_CPT_vs_D_L_CPT_4h, D_H_CPT_vs_D_4h, DT_H_CPT_vs_D_H_CPT_4h, D_vs_Ctrl_24h, Tam_vs_Ctrl_24h, DT_vs_D_24h, D_L_CPT_vs_D_24h, DT_L_CPT_vs_D_L_CPT_24h, D_H_CPT_vs_D_24h, DT_H_CPT_vs_D_H_CPT_24h
+fdr: 0.05
+lfc_min: 0.58
+min_total_count_filter: 80
+Input counts are rounded RSEM expected counts for limma/voom/edgeR count-scale analysis.
+Colors encode time point: 4 h = #0072B2, 24 h = #D55E00.
+Up fraction uses limma/voom DE calls. Slope is robust signed_effect ~ matched-control baseline_expression.

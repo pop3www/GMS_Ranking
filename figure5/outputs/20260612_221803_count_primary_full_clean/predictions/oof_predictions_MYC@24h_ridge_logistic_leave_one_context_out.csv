@@ -1,0 +1,13 @@
+sample_id,legacy_position,group_label,time_h,dox,myc,cpt_level,replicate,background_context,label_text,label,task_name,context_value,context_col,pred_label,pred_label_text,pred_score,fold_id,correct,model_name,cv_scheme
+29_24D_H_CPT_RP1,29,24D_H_CPT,24,Dox,None_MYC,HCPT,1,HCPT,None_MYC,0,MYC@24h,HCPT,cpt_level,1,MYC,0.9389203829,1,False,ridge_logistic,leave_one_context_out
+31_24D_H_CPT_RP2,31,24D_H_CPT,24,Dox,None_MYC,HCPT,2,HCPT,None_MYC,0,MYC@24h,HCPT,cpt_level,1,MYC,0.9572505776,1,False,ridge_logistic,leave_one_context_out
+30_24DT_H_CPT_RP1,30,24DT_H_CPT,24,Dox,MYC,HCPT,1,HCPT,MYC,1,MYC@24h,HCPT,cpt_level,1,MYC,0.9920538914,1,True,ridge_logistic,leave_one_context_out
+32_24DT_H_CPT_RP2,32,24DT_H_CPT,24,Dox,MYC,HCPT,2,HCPT,MYC,1,MYC@24h,HCPT,cpt_level,1,MYC,0.9941805672,1,True,ridge_logistic,leave_one_context_out
+25_24D_L_CPT_RP1,25,24D_L_CPT,24,Dox,None_MYC,LCPT,1,LCPT,None_MYC,0,MYC@24h,LCPT,cpt_level,0,None_MYC,0.01733010907,2,True,ridge_logistic,leave_one_context_out
+27_24D_L_CPT_RP2,27,24D_L_CPT,24,Dox,None_MYC,LCPT,2,LCPT,None_MYC,0,MYC@24h,LCPT,cpt_level,0,None_MYC,0.008682287613,2,True,ridge_logistic,leave_one_context_out
+26_24DT_L_CPT_RP1,26,24DT_L_CPT,24,Dox,MYC,LCPT,1,LCPT,MYC,1,MYC@24h,LCPT,cpt_level,0,None_MYC,0.4657713483,2,False,ridge_logistic,leave_one_context_out
+28_24DT_L_CPT_RP2,28,24DT_L_CPT,24,Dox,MYC,LCPT,2,LCPT,MYC,1,MYC@24h,LCPT,cpt_level,0,None_MYC,0.3498369479,2,False,ridge_logistic,leave_one_context_out
+21_24D_RP1,21,24D,24,Dox,None_MYC,None_CPT,1,baseline_background,None_MYC,0,MYC@24h,None_CPT,cpt_level,1,MYC,0.9787017717,3,False,ridge_logistic,leave_one_context_out
+23_24D_RP2,23,24D,24,Dox,None_MYC,None_CPT,2,baseline_background,None_MYC,0,MYC@24h,None_CPT,cpt_level,1,MYC,0.9370834913,3,False,ridge_logistic,leave_one_context_out
+22_24DT_RP1,22,24DT,24,Dox,MYC,None_CPT,1,MYC_background,MYC,1,MYC@24h,None_CPT,cpt_level,1,MYC,0.9942931341,3,True,ridge_logistic,leave_one_context_out
+24_24DT_RP2,24,24DT,24,Dox,MYC,None_CPT,2,MYC_background,MYC,1,MYC@24h,None_CPT,cpt_level,1,MYC,0.9948101214,3,True,ridge_logistic,leave_one_context_out

@@ -1,0 +1,9 @@
+sample_id,legacy_position,group_label,time_h,dox,myc,cpt_level,replicate,background_context,label_text,label,task_name,context_value,context_col,dim1,dim2
+2_4_Tam_RP1,2,4_Tam,4,None_Dox,MYC,None_CPT,1,MYC_background,None_Dox,0,DOX@4h,MYC,myc,-0.3307481959,-7.661375185
+4_4_Tam_RP2,4,4_Tam,4,None_Dox,MYC,None_CPT,2,MYC_background,None_Dox,0,DOX@4h,MYC,myc,-1.235871544,-5.321874211
+6_4DT_RP1,6,4DT,4,Dox,MYC,None_CPT,1,MYC_background,Dox,1,DOX@4h,MYC,myc,20.00429873,5.319341093
+8_4DT_RP2,8,4DT,4,Dox,MYC,None_CPT,2,MYC_background,Dox,1,DOX@4h,MYC,myc,16.48309057,4.662447581
+1_4_ctrl_RP1,1,4_ctrl,4,None_Dox,None_MYC,None_CPT,1,baseline_background,None_Dox,0,DOX@4h,None_MYC,myc,-7.090812974,-7.546672798
+3_4_ctrl_RP2,3,4_ctrl,4,None_Dox,None_MYC,None_CPT,2,baseline_background,None_Dox,0,DOX@4h,None_MYC,myc,-6.304094963,-6.957070495
+5_4D_RP1,5,4D,4,Dox,None_MYC,None_CPT,1,baseline_background,Dox,1,DOX@4h,None_MYC,myc,-15.27169156,19.99018561
+7_4D_RP2,7,4D,4,Dox,None_MYC,None_CPT,2,baseline_background,Dox,1,DOX@4h,None_MYC,myc,-6.254170065,-2.484981596

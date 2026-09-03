@@ -1,0 +1,42 @@
+Figure 2 final export for: ./figure2/results_fig2_teto19_weighted_FINAL
+Thu Jun 18 15:34:43 EDT 2026
+
+Expected final panels:
+- Fig2A_delta_density_controls.pdf
+- Fig2A_delta_density_controls.png
+- Fig2A_delta_density_controls.svg
+- Fig2B_priming_dependent_component.pdf
+- Fig2B_priming_dependent_component.png
+- Fig2B_priming_dependent_component.svg
+- Fig2C_DTvsD_vs_TamvsCtrl_scatter.pdf
+- Fig2C_DTvsD_vs_TamvsCtrl_scatter.png
+- Fig2C_DTvsD_vs_TamvsCtrl_scatter.svg
+- Fig2D_tetO_logo_weights.pdf
+- Fig2D_tetO_logo_weights.png
+- Fig2D_tetO_logo_weights.svg
+- Fig2E_hit_density_by_band.pdf
+- Fig2E_hit_density_by_band.png
+- Fig2E_hit_density_by_band.svg
+- Fig2F_enrichment_OR.pdf
+- Fig2F_enrichment_OR.png
+- Fig2F_enrichment_OR.svg
+
+Auxiliary/source panels:
+- Supp_enrichment_OR_by_band.png
+- Supp_enrichment_OR_by_band.svg
+- Supp_enrichment_OR.png
+- Supp_enrichment_OR.svg
+- Supp_enrichment_OR_up_vs_down.png
+- Supp_enrichment_OR_up_vs_down.svg
+- Supp_gene_fraction_by_band.png
+- Supp_gene_fraction_by_band.svg
+- Supp_hit_density_by_band.png
+- Supp_hit_density_by_band.svg
+- Supp_tetO_IC.png
+- Supp_tetO_IC.svg
+- Supp_tetO_logo.png
+- Supp_tetO_logo.svg
+- Supp_tetO_logo_with_weights.png
+- Supp_tetO_logo_with_weights.svg
+- Supp_tetO_weights.png
+- Supp_tetO_weights.svg

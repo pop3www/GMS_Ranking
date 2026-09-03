@@ -1,0 +1,56 @@
+{
+  "counts": {
+    "all_values_finite": true,
+    "duplicated_genes": 0,
+    "duplicated_sample_columns": 0,
+    "extra_samples": [],
+    "fractional_values": 39434,
+    "label": "counts",
+    "max_value": 2688952.97,
+    "min_value": 0.0,
+    "missing_samples": [],
+    "n_genes": 36604,
+    "n_samples": 32,
+    "negative_values": 0,
+    "sample_set_matches_sample_sheet": true
+  },
+  "counts_id_changes": {},
+  "counts_path": "data/raw/RawCountFile_rsemgenes.txt",
+  "counts_status": "PASS",
+  "counts_tpm_common_genes": 36604,
+  "counts_tpm_same_gene_order": true,
+  "counts_tpm_same_gene_set": true,
+  "counts_tpm_same_sample_set": true,
+  "genes_in_counts_not_tpm": [],
+  "genes_in_tpm_not_counts": [],
+  "n_expected_samples": 32,
+  "normalize_simple_repeated_nonensg_ids": true,
+  "notes": [
+    "Count matrix contains fractional values. This is compatible with RSEM expected counts; for DESeq2, handle integer conversion explicitly in the DE script and document it.",
+    "Normalized TPM gene IDs: {'LYT2_LYT2': 'LYT2', 'Mcherry_Mcherry': 'Mcherry', 'MYCER-ER_MYCER-ER': 'MYCER-ER'}"
+  ],
+  "overall_status": "PASS",
+  "sample_sheet": "config/sample_sheet.csv",
+  "tpm": {
+    "all_values_finite": true,
+    "duplicated_genes": 0,
+    "duplicated_sample_columns": 0,
+    "extra_samples": [],
+    "fractional_values": 623646,
+    "label": "tpm",
+    "max_value": 249109.06,
+    "min_value": 0.0,
+    "missing_samples": [],
+    "n_genes": 36604,
+    "n_samples": 32,
+    "negative_values": 0,
+    "sample_set_matches_sample_sheet": true
+  },
+  "tpm_id_changes": {
+    "LYT2_LYT2": "LYT2",
+    "MYCER-ER_MYCER-ER": "MYCER-ER",
+    "Mcherry_Mcherry": "Mcherry"
+  },
+  "tpm_path": "data/raw/TPMCountFile_rsemgenes.txt",
+  "tpm_status": "PASS"
+}

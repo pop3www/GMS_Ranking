@@ -1,0 +1,5 @@
+name,time_h,subset_mode,label_col,positive_label,negative_label,context_col,description,include_in_main
+MYC@4h,4,myc_task,myc,MYC,None_MYC,cpt_level,"Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",True
+MYC@24h,24,myc_task,myc,MYC,None_MYC,cpt_level,"Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",True
+DOX@4h,4,dox_task,dox,Dox,None_Dox,myc,"Sample-level Dox classification at 4 h in the no-CPT arm, used as a control task.",False
+DOX@24h,24,dox_task,dox,Dox,None_Dox,myc,"Sample-level Dox classification at 24 h in the no-CPT arm, used as a control task.",False

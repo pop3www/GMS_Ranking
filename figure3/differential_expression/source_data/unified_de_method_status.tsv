@@ -1,0 +1,13 @@
+contrast_id	method	status	note
+DT_vs_D_4h	DESeq2	ok	native
+DT_vs_D_4h	edgeR	ok	native
+DT_vs_D_4h	limma/voom	ok	native
+DT_vs_D_4h	RankProd	ok	native
+DT_vs_D_4h	PenDA	ok	precomputed
+DT_vs_D_4h	RankCompV3	ok	RankCompV3 precomputed
+DT_vs_D_24h	DESeq2	ok	native
+DT_vs_D_24h	edgeR	ok	native
+DT_vs_D_24h	limma/voom	ok	native
+DT_vs_D_24h	RankProd	ok	native
+DT_vs_D_24h	PenDA	ok	precomputed
+DT_vs_D_24h	RankCompV3	ok	RankCompV3 precomputed

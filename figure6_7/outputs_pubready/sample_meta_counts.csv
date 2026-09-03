@@ -1,0 +1,17 @@
+Time,Stress,Induction,n
+24 hours,CPT_high,DOX,2
+24 hours,CPT_high,DOX+TAM,2
+24 hours,CPT_low,DOX,2
+24 hours,CPT_low,DOX+TAM,2
+24 hours,NoCPT,CTRL,2
+24 hours,NoCPT,DOX,2
+24 hours,NoCPT,DOX+TAM,2
+24 hours,NoCPT,TAM,2
+4 hours,CPT_high,DOX,2
+4 hours,CPT_high,DOX+TAM,2
+4 hours,CPT_low,DOX,2
+4 hours,CPT_low,DOX+TAM,2
+4 hours,NoCPT,CTRL,2
+4 hours,NoCPT,DOX,2
+4 hours,NoCPT,DOX+TAM,2
+4 hours,NoCPT,TAM,2

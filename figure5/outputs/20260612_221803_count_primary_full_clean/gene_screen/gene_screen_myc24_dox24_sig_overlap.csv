@@ -1,0 +1,2 @@
+task_a,task_b,n_task_a_sig,n_task_b_sig,n_shared_sig,n_task_a_only,n_task_b_only,jaccard
+MYC@24h,DOX@24h,3188,8305,1849,1339,6456,0.1917254251

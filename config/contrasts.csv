@@ -1,0 +1,15 @@
+contrast_id,numerator,denominator,time_h,cpt_level,description
+D_vs_Ctrl_4h,D,Ctrl,4,none,Doxycycline-only priming control at 4 h
+Tam_vs_Ctrl_4h,Tam,Ctrl,4,none,Tam-only control at 4 h
+DT_vs_D_4h,DT,D,4,none,MYC activation on Dox-matched background at 4 h
+D_L_CPT_vs_D_4h,D_L_CPT,D,4,low,Doxycycline + low CPT versus Dox baseline at 4 h
+DT_L_CPT_vs_D_L_CPT_4h,DT_L_CPT,D_L_CPT,4,low,MYC activation on Dox+low CPT background at 4 h
+D_H_CPT_vs_D_4h,D_H_CPT,D,4,high,Doxycycline + high CPT versus Dox baseline at 4 h
+DT_H_CPT_vs_D_H_CPT_4h,DT_H_CPT,D_H_CPT,4,high,MYC activation on Dox+high CPT background at 4 h
+D_vs_Ctrl_24h,D,Ctrl,24,none,Doxycycline-only priming control at 24 h
+Tam_vs_Ctrl_24h,Tam,Ctrl,24,none,Tam-only control at 24 h
+DT_vs_D_24h,DT,D,24,none,MYC activation on Dox-matched background at 24 h
+D_L_CPT_vs_D_24h,D_L_CPT,D,24,low,Doxycycline + low CPT versus Dox baseline at 24 h
+DT_L_CPT_vs_D_L_CPT_24h,DT_L_CPT,D_L_CPT,24,low,MYC activation on Dox+low CPT background at 24 h
+D_H_CPT_vs_D_24h,D_H_CPT,D,24,high,Doxycycline + high CPT versus Dox baseline at 24 h
+DT_H_CPT_vs_D_H_CPT_24h,DT_H_CPT,D_H_CPT,24,high,MYC activation on Dox+high CPT background at 24 h

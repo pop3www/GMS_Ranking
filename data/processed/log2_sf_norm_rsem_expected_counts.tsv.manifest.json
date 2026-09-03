@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-06-13T02:16:55.046436+00:00",
+  "matrix_scale": "log2_size_factor_normalized_rsem_expected_counts",
+  "min_total_expected_count": 80.0,
+  "n_genes_after_filter": 17430,
+  "n_genes_before_filter": 36604,
+  "n_samples": 32,
+  "notes": [
+    "Input counts are allowed to be fractional RSEM expected counts.",
+    "Output is already log2-transformed; downstream Figure 6 runs should not pass --log1p."
+  ],
+  "output_matrix": "./data/processed/log2_sf_norm_rsem_expected_counts.tsv",
+  "output_matrix_sha256": "7220b877ced235f483544df4901bd0d245dc87ec849b8d878e4e71a44b357fe8",
+  "pseudocount": 1.0,
+  "sample_sheet": "./config/sample_sheet.csv",
+  "sample_sheet_sha256": "4e944a03b93ce5059cb8c3647be3153d4d6e65f01712c75eb1e7c96eb7d1572a",
+  "size_factor_fallback_reason": "",
+  "size_factor_method_requested": "median_ratio",
+  "size_factor_method_used": "median_ratio",
+  "size_factors_file": "./data/processed/log2_sf_norm_rsem_expected_counts.tsv.size_factors.csv",
+  "size_factors_sha256": "0eb95224e6f6d86aaa32221740451578c3c3cfebf0ee7ff599a7c787bc732342",
+  "source_counts": "./data/processed/raw_counts_rsemgenes.tsv",
+  "source_counts_sha256": "3441ab077a94637d3aa15ad8b7b7632b0404bdd784f5a4b89f6262e196028677"
+}

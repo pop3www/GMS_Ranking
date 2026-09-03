@@ -1,0 +1,13 @@
+task_name,region,n_sig_fdr,fraction_of_sig,fdr_threshold
+MYC@4h,head,30,0.1612903226,0.25
+MYC@4h,mid,152,0.8172043011,0.25
+MYC@4h,tail,4,0.02150537634,0.25
+MYC@24h,head,328,0.1028858218,0.25
+MYC@24h,mid,2693,0.8447302384,0.25
+MYC@24h,tail,167,0.05238393977,0.25
+DOX@4h,head,0,0,0.25
+DOX@4h,mid,0,0,0.25
+DOX@4h,tail,0,0,0.25
+DOX@24h,head,1072,0.1290633277,0.25
+DOX@24h,mid,6815,0.8204912112,0.25
+DOX@24h,tail,419,0.05044546111,0.25

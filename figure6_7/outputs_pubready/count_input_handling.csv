@@ -1,0 +1,2 @@
+path,resolved_count_mode,rounded_for_deseq2,fraction_noninteger,column_sum_min,column_sum_median,column_sum_max,looks_tpm_or_cpm_by_column_sum,filename_looks_tpm_or_cpm
+./data/processed/raw_counts_rsemgenes.tsv,rsem_expected_counts,TRUE,0.0346845631624959,16276220.04,27014078.46,34820707.01,FALSE,FALSE

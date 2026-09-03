@@ -1,0 +1,9 @@
+task_name,task_description,model_name,cv_scheme,positive_label,negative_label,include_in_main,n_samples,n_positive,n_negative,balanced_accuracy,roc_auc,null_mean_balanced_accuracy,null_sd_balanced_accuracy,permutation_pvalue,n_valid_permutations,task_order,model_order
+MYC@4h,"Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",ridge_logistic,leave_one_context_out,MYC,None_MYC,True,12,6,6,0.75,0.8333333333,,,,0,0,0
+MYC@4h,"Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",ridge_logistic,leave_one_sample_out,MYC,None_MYC,True,12,6,6,1,1,0.23,0.1825053635,0.01492537313,200,0,0
+MYC@4h,"Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",gbt_svd,leave_one_context_out,MYC,None_MYC,True,12,6,6,0.9166666667,0.9444444444,,,,0,0,1
+MYC@4h,"Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",gbt_svd,leave_one_sample_out,MYC,None_MYC,True,12,6,6,1,1,0.305,0.1657091422,0.01492537313,200,0,1
+MYC@24h,"Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",ridge_logistic,leave_one_context_out,MYC,None_MYC,True,12,6,6,0.5,0.7777777778,,,,0,1,0
+MYC@24h,"Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",ridge_logistic,leave_one_sample_out,MYC,None_MYC,True,12,6,6,1,1,0.2704166667,0.2164857994,0.01492537313,200,1,0
+MYC@24h,"Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",gbt_svd,leave_one_context_out,MYC,None_MYC,True,12,6,6,0.6666666667,0.5555555556,,,,0,1,1
+MYC@24h,"Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",gbt_svd,leave_one_sample_out,MYC,None_MYC,True,12,6,6,0.9166666667,0.8611111111,0.3004166667,0.2044482811,0.01492537313,200,1,1

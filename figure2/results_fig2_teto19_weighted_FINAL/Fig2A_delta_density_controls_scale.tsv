@@ -1,0 +1,2 @@
+input	scale	bootstrap_B
+./figure2/results_fig2_teto19_weighted_FINAL/FIGURE2_EXPRESSION_INPUTS/Fig2_expression_normcounts.tsv	size-factor-normalized RSEM expected counts	5000

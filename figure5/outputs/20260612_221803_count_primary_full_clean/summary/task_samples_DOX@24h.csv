@@ -1,0 +1,9 @@
+sample_id,legacy_position,group_label,time_h,dox,myc,cpt_level,replicate,background_context,label_text,label,task_name,context_value,context_col
+18_24_Tam_RP1,18,24_Tam,24,None_Dox,MYC,None_CPT,1,MYC_background,None_Dox,0,DOX@24h,MYC,myc
+20_24_Tam_RP2,20,24_Tam,24,None_Dox,MYC,None_CPT,2,MYC_background,None_Dox,0,DOX@24h,MYC,myc
+22_24DT_RP1,22,24DT,24,Dox,MYC,None_CPT,1,MYC_background,Dox,1,DOX@24h,MYC,myc
+24_24DT_RP2,24,24DT,24,Dox,MYC,None_CPT,2,MYC_background,Dox,1,DOX@24h,MYC,myc
+17_24_ctrl_RP1,17,24_ctrl,24,None_Dox,None_MYC,None_CPT,1,baseline_background,None_Dox,0,DOX@24h,None_MYC,myc
+19_24_ctrl_RP2,19,24_ctrl,24,None_Dox,None_MYC,None_CPT,2,baseline_background,None_Dox,0,DOX@24h,None_MYC,myc
+21_24D_RP1,21,24D,24,Dox,None_MYC,None_CPT,1,baseline_background,Dox,1,DOX@24h,None_MYC,myc
+23_24D_RP2,23,24D,24,Dox,None_MYC,None_CPT,2,baseline_background,Dox,1,DOX@24h,None_MYC,myc

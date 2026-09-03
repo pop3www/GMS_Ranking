@@ -1,0 +1,9 @@
+sample_id,legacy_position,group_label,time_h,dox,myc,cpt_level,replicate,background_context,label_text,label,task_name,context_value,context_col,pred_label,pred_label_text,pred_score,fold_id,correct,model_name,cv_scheme
+18_24_Tam_RP1,18,24_Tam,24,None_Dox,MYC,None_CPT,1,MYC_background,None_Dox,0,DOX@24h,MYC,myc,0,None_Dox,0.4332100819,1,True,ridge_logistic,leave_one_context_out
+20_24_Tam_RP2,20,24_Tam,24,None_Dox,MYC,None_CPT,2,MYC_background,None_Dox,0,DOX@24h,MYC,myc,0,None_Dox,0.3619092788,1,True,ridge_logistic,leave_one_context_out
+22_24DT_RP1,22,24DT,24,Dox,MYC,None_CPT,1,MYC_background,Dox,1,DOX@24h,MYC,myc,1,Dox,0.9834597842,1,True,ridge_logistic,leave_one_context_out
+24_24DT_RP2,24,24DT,24,Dox,MYC,None_CPT,2,MYC_background,Dox,1,DOX@24h,MYC,myc,1,Dox,0.9829061201,1,True,ridge_logistic,leave_one_context_out
+17_24_ctrl_RP1,17,24_ctrl,24,None_Dox,None_MYC,None_CPT,1,baseline_background,None_Dox,0,DOX@24h,None_MYC,myc,0,None_Dox,0.06038827527,2,True,ridge_logistic,leave_one_context_out
+19_24_ctrl_RP2,19,24_ctrl,24,None_Dox,None_MYC,None_CPT,2,baseline_background,None_Dox,0,DOX@24h,None_MYC,myc,0,None_Dox,0.05322836854,2,True,ridge_logistic,leave_one_context_out
+21_24D_RP1,21,24D,24,Dox,None_MYC,None_CPT,1,baseline_background,Dox,1,DOX@24h,None_MYC,myc,1,Dox,0.6955009504,2,True,ridge_logistic,leave_one_context_out
+23_24D_RP2,23,24D,24,Dox,None_MYC,None_CPT,2,baseline_background,Dox,1,DOX@24h,None_MYC,myc,0,None_Dox,0.3890956266,2,False,ridge_logistic,leave_one_context_out

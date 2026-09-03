@@ -1,0 +1,6 @@
+Supplementary Figure S5 contains the pairwise Jaccard and Spearman method-concordance analyses associated with manuscript Figure 3.
+
+Canonical implementation: ../../figure3/differential_expression
+Reviewer entry point: ./run.sh
+Final display: ../../final_outputs/FigureS5.pdf
+The relative symlink 'code' points to the canonical implementation.

@@ -1,0 +1,15 @@
+final_display	panels	analysis_directory	primary_code	primary_source_data	final_output
+Figure 1	A-C	figure1	figure1/run.sh	figure1/source_data	final_outputs/Figure1.pdf
+Figure 2	A-F	figure2	figure2/run.sh	figure2/results_fig2_teto19_weighted_FINAL	final_outputs/Figure2.pdf
+Figure S1	A-B	supplement/figureS1	supplement/figureS1/run.sh	supplement/figureS1/source_data/GEO_TRACE.tsv	final_outputs/FigureS1.pdf
+Figure 3	A-C	figure3/differential_expression	figure3/differential_expression/scripts/run.py	figure3/differential_expression/source_data	final_outputs/Figure3.pdf
+Figure 3	D-E	figure3/scalar_metrics	figure3/scalar_metrics/scripts/run.py	figure3/scalar_metrics/source_data	final_outputs/Figure3.pdf
+Figure 3	A-E composite	figure3/final_assembly	figure3/final_assembly/run.sh	figure3/differential_expression/source_data;figure3/scalar_metrics/source_data	final_outputs/Figure3.pdf
+Figure S5	A-B	supplement/figureS5	figure3/differential_expression/scripts/export_figureS5.py	figure3/differential_expression/source_data	final_outputs/FigureS5.pdf
+Figure 4	A-F	figure4	figure4/run.sh	figure4/source_data	final_outputs/Figure4.pdf
+Figure 5	A-D	figure5	figure5/run.sh	figure5/outputs/20260612_221803_count_primary_full_clean	final_outputs/Figure5.pdf
+Figure S2	A-B	supplement/figureS2	figure5/run.sh	figure5/outputs/20260612_221803_count_primary_full_clean	final_outputs/FigureS2.pdf
+Figure 6	A-D	figure6_7	figure6_7/run.sh	figure6_7/outputs_pubready	final_outputs/Figure6.pdf
+Figure 7	A-D	figure6_7	figure6_7/run.sh	figure6_7/outputs_pubready	final_outputs/Figure7.pdf
+Figure S3	all	supplement/figureS3	figure6_7/run.sh	figure6_7/outputs_pubready	final_outputs/FigureS3.pdf
+Figure S4	A-D	supplement/figureS4	supplement/figureS4/run.sh	supplement/figureS4/source_data	final_outputs/FigureS4.pdf

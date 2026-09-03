@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this software release."
+title: "GMS_Ranking: analysis code for sustained MYC transcriptome distortion"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Bo
+    email: bo.wang@nih.gov
+  - family-names: Jha
+    given-names: Rajiv K.
+  - family-names: Levens
+    given-names: David
+repository-code: "https://github.com/pop3www/GMS_Ranking"
+version: "v1.0.0-iscience-review"
+date-released: "2026-08-22"
+abstract: "Analysis and figure-generation code underlying the manuscript Sustained MYC activation reveals head-constrained transcriptome distortion."

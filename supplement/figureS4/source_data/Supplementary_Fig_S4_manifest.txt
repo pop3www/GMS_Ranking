@@ -1,0 +1,14 @@
+created: 2026-06-18 00:31:29.571362
+contrasts: ./config/contrasts.csv
+sample_sheet: ./config/sample_sheet.csv
+figure4_gene_results: ./figure3/scalar_metrics/source_data/figure4_limma_voom_gene_results.tsv
+figure3_used_results: ./figure3/differential_expression/source_data/figure3_unified_de_results_used.tsv
+gene_lengths: 
+gtf: ./data/annotations/gencode.v50.annotation.gtf.gz
+n_gene_keys_with_lengths_used: 14642
+bootstrap_gene_resamples: 1000
+fdr: 0.05
+lfc_min: 0.58
+Gene length is transcription-unit/gene span if derived from GTF gene features; if a length table was supplied, see length_source in Supplementary_Fig_S4_gene_lengths_used.tsv.
+Panel B: gray open circles show unadjusted robust slopes; colored points/error bars show length-adjusted robust slopes.
+Panel D: head effect estimated by robust regression spread_i ~ head_indicator + log10_gene_length using Figure 3 score_for_agreement.

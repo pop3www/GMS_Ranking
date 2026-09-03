@@ -1,0 +1,119 @@
+{
+  "arguments": {
+    "duplicate_policy": "error",
+    "figure_model": "ridge_logistic",
+    "fill_missing_value": null,
+    "id_col": null,
+    "log1p": false,
+    "matrix": "./data/processed/log2_sf_norm_rsem_expected_counts.tsv",
+    "matrix_scale": "log2_size_factor_normalized_rsem_expected_counts",
+    "max_genes": 500,
+    "max_svd_components": 6,
+    "models": [
+      "ridge_logistic",
+      "gbt_svd"
+    ],
+    "n_permutations": 200,
+    "output_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean",
+    "sample_sheet": "./config/sample_sheet.csv",
+    "seed": 42,
+    "skip_dox_controls": false
+  },
+  "created_utc": "2026-06-13T02:34:59.832740+00:00",
+  "extra": {
+    "matrix_scale": "log2_size_factor_normalized_rsem_expected_counts",
+    "matrix_transform": {
+      "log1p_applied_in_loader": false
+    },
+    "metrics_file": "./figure5/outputs/20260612_221803_count_primary_full_clean/summary/metrics_all_models.csv",
+    "outputs": {
+      "coefficients_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/coefficients",
+      "embeddings_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/embeddings",
+      "figures_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/figures",
+      "predictions_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/predictions",
+      "summary_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/summary"
+    },
+    "task_membership_summary_file": "./figure5/outputs/20260612_221803_count_primary_full_clean/summary/task_membership_summary.csv"
+  },
+  "input_files": {
+    "matrix": {
+      "path": "./data/processed/log2_sf_norm_rsem_expected_counts.tsv",
+      "sha256": "7220b877ced235f483544df4901bd0d245dc87ec849b8d878e4e71a44b357fe8",
+      "size_bytes": 10480566
+    },
+    "sample_sheet": {
+      "path": "./config/sample_sheet.csv",
+      "sha256": "4e944a03b93ce5059cb8c3647be3153d4d6e65f01712c75eb1e7c96eb7d1572a",
+      "size_bytes": 1994
+    }
+  },
+  "platform": "Linux-4.18.0-425.19.3a.el8.x86_64-x86_64-with-glibc2.28",
+  "python_executable": "python3",
+  "script_files": {
+    "fig6_ml_core.py": {
+      "path": "./figure5/fig6_ml_core.py",
+      "sha256": "34b3f7ba011d163f428f45c536ae31a4185fb37a34e46ad0b6ad3fcd7ae39753",
+      "size_bytes": 30336
+    },
+    "run_fig6_sample_level.py": {
+      "path": "./figure5/run_fig6_sample_level.py",
+      "sha256": "b0e158e029691602a34c3d275e478b295a5b23937abf7b85285f37e8f8494098",
+      "size_bytes": 17963
+    }
+  },
+  "software_versions": {
+    "matplotlib": "3.6.3",
+    "numpy": "1.24.0",
+    "pandas": "1.5.3",
+    "python": "3.11.8",
+    "scikit_learn": "1.1.3",
+    "scipy": "1.14.1"
+  },
+  "task_specs": [
+    {
+      "context_col": "cpt_level",
+      "description": "Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",
+      "include_in_main": true,
+      "label_col": "myc",
+      "name": "MYC@4h",
+      "negative_label": "None_MYC",
+      "positive_label": "MYC",
+      "subset_mode": "myc_task",
+      "time_h": 4
+    },
+    {
+      "context_col": "cpt_level",
+      "description": "Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",
+      "include_in_main": true,
+      "label_col": "myc",
+      "name": "MYC@24h",
+      "negative_label": "None_MYC",
+      "positive_label": "MYC",
+      "subset_mode": "myc_task",
+      "time_h": 24
+    },
+    {
+      "context_col": "myc",
+      "description": "Sample-level Dox classification at 4 h in the no-CPT arm, used as a control task.",
+      "include_in_main": false,
+      "label_col": "dox",
+      "name": "DOX@4h",
+      "negative_label": "None_Dox",
+      "positive_label": "Dox",
+      "subset_mode": "dox_task",
+      "time_h": 4
+    },
+    {
+      "context_col": "myc",
+      "description": "Sample-level Dox classification at 24 h in the no-CPT arm, used as a control task.",
+      "include_in_main": false,
+      "label_col": "dox",
+      "name": "DOX@24h",
+      "negative_label": "None_Dox",
+      "positive_label": "Dox",
+      "subset_mode": "dox_task",
+      "time_h": 24
+    }
+  ],
+  "working_directory": "./figure5"
+}

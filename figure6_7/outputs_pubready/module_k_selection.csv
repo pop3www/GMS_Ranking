@@ -1,0 +1,7 @@
+k,silhouette_avg_width,silhouette_best,used_for_figure,selected,module_k_rule,silhouette_audit_sample_n,silhouette_audit_total_genes,final_clustering_engine,final_clara_samples,final_clara_sampsize,final_avg_width,note
+3,0.3576547160889803,TRUE,FALSE,FALSE,fixed_7_with_silhouette_audit_low_memory,4000,17423,clara_pam_approximation,20,5000,0.29280225962590267,
+4,0.3001241463997316,FALSE,FALSE,FALSE,fixed_7_with_silhouette_audit_low_memory,4000,17423,clara_pam_approximation,20,5000,0.29280225962590267,
+5,0.27343568808769464,FALSE,FALSE,FALSE,fixed_7_with_silhouette_audit_low_memory,4000,17423,clara_pam_approximation,20,5000,0.29280225962590267,
+6,0.2952584967603399,FALSE,FALSE,FALSE,fixed_7_with_silhouette_audit_low_memory,4000,17423,clara_pam_approximation,20,5000,0.29280225962590267,
+7,0.29323246000958164,FALSE,TRUE,TRUE,fixed_7_with_silhouette_audit_low_memory,4000,17423,clara_pam_approximation,20,5000,0.29280225962590267,Used for frozen manuscript figure; silhouette audit optimum was k=3
+8,0.2859483466717087,FALSE,FALSE,FALSE,fixed_7_with_silhouette_audit_low_memory,4000,17423,clara_pam_approximation,20,5000,0.29280225962590267,

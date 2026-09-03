@@ -1,0 +1,23 @@
+ComparisonBlock,ColumnLabel,Contrast,Time,Stress,ExactContrast
+Dox baseline,"4 h
+no CPT",D_vs_Ctrl,4 hours,NoCPT,D vs Ctrl
+Dox baseline,"24 h
+no CPT",D_vs_Ctrl,24 hours,NoCPT,D vs Ctrl
+"MYC-ER activation
+Dox held constant","4 h
+no CPT",DT_vs_D,4 hours,NoCPT,DT vs D
+"MYC-ER activation
+Dox held constant","24 h
+no CPT",DT_vs_D,24 hours,NoCPT,DT vs D
+"MYC-ER activation
+Dox held constant","4 h
+LCPT",DT_vs_D,4 hours,CPT_low,DT_L_CPT vs D_L_CPT
+"MYC-ER activation
+Dox held constant","24 h
+LCPT",DT_vs_D,24 hours,CPT_low,DT_L_CPT vs D_L_CPT
+"MYC-ER activation
+Dox held constant","4 h
+HCPT",DT_vs_D,4 hours,CPT_high,DT_H_CPT vs D_H_CPT
+"MYC-ER activation
+Dox held constant","24 h
+HCPT",DT_vs_D,24 hours,CPT_high,DT_H_CPT vs D_H_CPT

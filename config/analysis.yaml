@@ -1,0 +1,60 @@
+dataset:
+  title: "Structured method divergence reveals ceiling formation in the MYC transcriptome"
+  geo_superseries: "GSE318586"
+  geo_rnaseq: "GSE318584"
+  geo_rnaseq_sirna: "GSE318585"
+  geo_chipseq_companion: "GSE318271"
+  reference_genome: "hg38_lentivirus"
+  gencode_release: "FILL_ME"
+  library_type: "rRNA-depleted total RNA"
+  library_kit: "Illumina Total RNA Ligation Kit with RiboZero Plus"
+  sequencer: "NovaSeq 6000"
+  read_layout: "100 bp single-end"
+  strandedness: "FILL_ME"
+
+culture:
+  hydrocortisone_concentration: "FILL_ME"
+
+perturbation:
+  doxycycline_ng_per_ml: "FILL_ME"
+  doxycycline_remains_on_during_harvest: "FILL_ME"
+  tam_or_4oht: "FILL_ME"
+  tam_or_4oht_concentration: "FILL_ME"
+  cpt_low_nM: 100
+  cpt_high_nM: 2500
+  timepoints_h: [4, 24]
+
+preprocessing:
+  low_count_filter_total_reads: 80
+  cutadapt_version: "FILL_ME"
+  star_version: "FILL_ME"
+  featurecounts_version: "FILL_ME"
+  duplicate_handling: "FILL_ME"
+
+ranking:
+  head_quantile: 0.10
+  mid_quantile_center: 0.50
+  tail_quantile: 0.10
+  smoothing_windows: [25, 100, 250, 500]
+  bootstrap_resamples: 5000
+
+differential_expression:
+  methods: [DESeq2, edgeR, limma_voom, RankProd, PenDA, CellComp]
+  fdr_threshold: "FILL_ME"
+  abs_log2fc_threshold: "FILL_ME"
+  harmonized_rule: "FILL_ME"
+
+pathway:
+  fgsea_ranking_statistic: "FILL_ME"
+  distortion_axis_definition: "FILL_ME"
+  leading_edge_head_frac_definition: "Fraction of leading-edge genes in the matched-control head band"
+  n_modules: 7
+  module_membership_statistic: "FILL_ME"
+
+machine_learning:
+  unit_of_analysis: "sample_level"
+  cv_scheme: "FILL_ME"
+  n_repeats: "FILL_ME"
+  random_seed: 20260313
+  metrics: [balanced_accuracy, roc_auc]
+  latent_reduction: "TruncatedSVD -> t-SNE"

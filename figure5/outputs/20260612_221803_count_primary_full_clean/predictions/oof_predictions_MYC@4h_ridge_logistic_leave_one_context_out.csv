@@ -1,0 +1,13 @@
+sample_id,legacy_position,group_label,time_h,dox,myc,cpt_level,replicate,background_context,label_text,label,task_name,context_value,context_col,pred_label,pred_label_text,pred_score,fold_id,correct,model_name,cv_scheme
+13_4D_H_CPT_RP1,13,4D_H_CPT,4,Dox,None_MYC,HCPT,1,HCPT,None_MYC,0,MYC@4h,HCPT,cpt_level,1,MYC,0.6770167081,1,False,ridge_logistic,leave_one_context_out
+15_4D_H_CPT_RP2,15,4D_H_CPT,4,Dox,None_MYC,HCPT,2,HCPT,None_MYC,0,MYC@4h,HCPT,cpt_level,1,MYC,0.6582502667,1,False,ridge_logistic,leave_one_context_out
+14_4DT_H_CPT_RP1,14,4DT_H_CPT,4,Dox,MYC,HCPT,1,HCPT,MYC,1,MYC@4h,HCPT,cpt_level,1,MYC,0.9677809431,1,True,ridge_logistic,leave_one_context_out
+16_4DT_H_CPT_RP2,16,4DT_H_CPT,4,Dox,MYC,HCPT,2,HCPT,MYC,1,MYC@4h,HCPT,cpt_level,1,MYC,0.96078103,1,True,ridge_logistic,leave_one_context_out
+9_4D_L_CPT_RP1,9,4D_L_CPT,4,Dox,None_MYC,LCPT,1,LCPT,None_MYC,0,MYC@4h,LCPT,cpt_level,0,None_MYC,0.1622983751,2,True,ridge_logistic,leave_one_context_out
+11_4D_L_CPT_RP2,11,4D_L_CPT,4,Dox,None_MYC,LCPT,2,LCPT,None_MYC,0,MYC@4h,LCPT,cpt_level,0,None_MYC,0.1904946376,2,True,ridge_logistic,leave_one_context_out
+10_4DT_L_CPT_RP1,10,4DT_L_CPT,4,Dox,MYC,LCPT,1,LCPT,MYC,1,MYC@4h,LCPT,cpt_level,1,MYC,0.5765337171,2,True,ridge_logistic,leave_one_context_out
+12_4DT_L_CPT_RP2,12,4DT_L_CPT,4,Dox,MYC,LCPT,2,LCPT,MYC,1,MYC@4h,LCPT,cpt_level,1,MYC,0.7591841151,2,True,ridge_logistic,leave_one_context_out
+5_4D_RP1,5,4D,4,Dox,None_MYC,None_CPT,1,baseline_background,None_MYC,0,MYC@4h,None_CPT,cpt_level,0,None_MYC,0.03307011408,3,True,ridge_logistic,leave_one_context_out
+7_4D_RP2,7,4D,4,Dox,None_MYC,None_CPT,2,baseline_background,None_MYC,0,MYC@4h,None_CPT,cpt_level,0,None_MYC,0.0148637769,3,True,ridge_logistic,leave_one_context_out
+6_4DT_RP1,6,4DT,4,Dox,MYC,None_CPT,1,MYC_background,MYC,1,MYC@4h,None_CPT,cpt_level,1,MYC,0.503214899,3,True,ridge_logistic,leave_one_context_out
+8_4DT_RP2,8,4DT,4,Dox,MYC,None_CPT,2,MYC_background,MYC,1,MYC@4h,None_CPT,cpt_level,0,None_MYC,0.3527139236,3,False,ridge_logistic,leave_one_context_out

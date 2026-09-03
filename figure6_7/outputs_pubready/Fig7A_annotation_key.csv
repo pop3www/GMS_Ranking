@@ -1,0 +1,20 @@
+annotation,level,color
+Module,M1,#E16A86
+Module,M2,#C18500
+Module,M3,#799D00
+Module,M4,#00AB6E
+Module,M5,#00A9BE
+Module,M6,#6C8EE6
+Module,M7,#D169D0
+Band,head,#D01C8B
+Band,mid,#F1B6DA
+Band,tail,#4DAC26
+Time,4 h,#80B1D3
+Time,24 h,#FDB462
+State,Ctrl,#66C2A5
+State,D,#FC8D62
+State,Tam,#8DA0CB
+State,DT,#E78AC3
+CPT,No CPT,#BDBDBD
+CPT,Low CPT,#FDBF6F
+CPT,High CPT,#E31A1C

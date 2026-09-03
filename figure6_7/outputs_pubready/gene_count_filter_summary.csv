@@ -1,0 +1,2 @@
+filter,genes_before,genes_after,genes_removed
+total_counts >= 80,36604,17430,19174

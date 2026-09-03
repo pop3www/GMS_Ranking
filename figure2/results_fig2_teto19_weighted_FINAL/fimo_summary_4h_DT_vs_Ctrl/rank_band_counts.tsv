@@ -1,0 +1,10 @@
+band	updown	N
+head	Down	116
+head	Neutral	1458
+head	Up	169
+mid	Down	2634
+mid	Neutral	8846
+mid	Up	2464
+tail	Down	456
+tail	Neutral	593
+tail	Up	694

@@ -1,0 +1,11 @@
+Contrast,Time,Stress,Numerator,Denominator,N_num,N_den,RankStatistic,Samples_num,Samples_den
+D_vs_Ctrl,4 hours,NoCPT,DOX,CTRL,2,2,vst_mean_diff,5_4D_RP1;7_4D_RP2,1_4_ctrl_RP1;3_4_ctrl_RP2
+D_vs_Ctrl,24 hours,NoCPT,DOX,CTRL,2,2,vst_mean_diff,21_24D_RP1;23_24D_RP2,17_24_ctrl_RP1;19_24_ctrl_RP2
+DT_vs_D,4 hours,NoCPT,DOX+TAM,DOX,2,2,vst_mean_diff,6_4DT_RP1;8_4DT_RP2,5_4D_RP1;7_4D_RP2
+DT_vs_D,4 hours,CPT_low,DOX+TAM,DOX,2,2,vst_mean_diff,10_4DT_L_CPT_RP1;12_4DT_L_CPT_RP2,9_4D_L_CPT_RP1;11_4D_L_CPT_RP2
+DT_vs_D,4 hours,CPT_high,DOX+TAM,DOX,2,2,vst_mean_diff,14_4DT_H_CPT_RP1;16_4DT_H_CPT_RP2,13_4D_H_CPT_RP1;15_4D_H_CPT_RP2
+DT_vs_D,24 hours,NoCPT,DOX+TAM,DOX,2,2,vst_mean_diff,22_24DT_RP1;24_24DT_RP2,21_24D_RP1;23_24D_RP2
+DT_vs_D,24 hours,CPT_low,DOX+TAM,DOX,2,2,vst_mean_diff,26_24DT_L_CPT_RP1;28_24DT_L_CPT_RP2,25_24D_L_CPT_RP1;27_24D_L_CPT_RP2
+DT_vs_D,24 hours,CPT_high,DOX+TAM,DOX,2,2,vst_mean_diff,30_24DT_H_CPT_RP1;32_24DT_H_CPT_RP2,29_24D_H_CPT_RP1;31_24D_H_CPT_RP2
+Tam_vs_Ctrl,4 hours,NoCPT,TAM,CTRL,2,2,vst_mean_diff,2_4_Tam_RP1;4_4_Tam_RP2,1_4_ctrl_RP1;3_4_ctrl_RP2
+Tam_vs_Ctrl,24 hours,NoCPT,TAM,CTRL,2,2,vst_mean_diff,18_24_Tam_RP1;20_24_Tam_RP2,17_24_ctrl_RP1;19_24_ctrl_RP2

@@ -1,0 +1,19 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	6	24	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	42	60	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	78	96	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	114	132	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	150	168	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	186	204	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	222	240	+	34.9518	4.46e-12	2.66e-10	TCTCTATCACTGATAGGGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	6	24	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	42	60	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	78	96	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	114	132	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	150	168	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	186	204	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+tetO_TRE3Gs19_strict		TRE3Gs_7x_operator_array	222	240	-	20.3614	8.23e-08	2.46e-06	TCCCTATCAGTGATAGAGA
+
+# FIMO (Find Individual Motif Occurrences): Version 5.5.5 compiled on Feb  5 2024 at 13:34:00
+# The format of this file is described at http://meme-suite.org/doc/fimo-output-format.html#tsv_results.
+# fimo --oc out/fimo_poscontrol_teto19_strict --thresh 1e-4 motifs/tetO_TRE3Gs19.meme motifs/TRE3Gs_7x.fa

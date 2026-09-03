@@ -1,0 +1,5 @@
+task_name,time_h,label_col,positive_label,negative_label,context_col,n_samples,n_positive,n_negative,context_values
+MYC@4h,4,myc,MYC,None_MYC,cpt_level,12,6,6,HCPT;LCPT;None_CPT
+MYC@24h,24,myc,MYC,None_MYC,cpt_level,12,6,6,HCPT;LCPT;None_CPT
+DOX@4h,4,dox,Dox,None_Dox,myc,8,4,4,MYC;None_MYC
+DOX@24h,24,dox,Dox,None_Dox,myc,8,4,4,MYC;None_MYC

@@ -1,0 +1,32 @@
+{
+  "figure": "Figure 1",
+  "script": "figure1/scripts/run.py",
+  "expression_source_argument": "norm_counts",
+  "expression_scale_name": "median-ratio normalized RSEM expected counts",
+  "axis_label": "log2(normalized count + 1)",
+  "matrix_path": "./data/processed/raw_counts_rsemgenes.tsv",
+  "sample_sheet": "config/sample_sheet.csv",
+  "contrasts": "config/contrasts.csv",
+  "delta_mode": "contrasts",
+  "low_count_filter_total_counts": 80.0,
+  "n_genes_before_filter": 36604,
+  "n_genes_after_filter": 17430,
+  "density_bandwidth_log2_units": 0.25,
+  "grid_n": 1024,
+  "bootstrap_resamples": 5000,
+  "bootstrap_interpretation": "gene-resampling density bands; not biological-replicate confidence intervals",
+  "panel_c_linetype": {
+    "4h": "dashed",
+    "24h": "solid"
+  },
+  "condition_order": [
+    "Ctrl",
+    "Tam",
+    "D",
+    "DT",
+    "D_L_CPT",
+    "DT_L_CPT",
+    "D_H_CPT",
+    "DT_H_CPT"
+  ]
+}

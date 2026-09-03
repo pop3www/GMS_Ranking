@@ -1,0 +1,122 @@
+{
+  "arguments": {
+    "candidate_high_task": "DOX@24h",
+    "candidate_low_task": "DOX@4h",
+    "ddr_genes": "./figure5/source_data/ddr_genes_frozen.txt",
+    "duplicate_policy": "error",
+    "fdr_threshold": 0.25,
+    "fill_missing_value": null,
+    "focus_context": "HCPT",
+    "focus_task": "MYC@24h",
+    "focus_top_n": 20,
+    "head_pct": 10.0,
+    "high_auc_threshold": 0.7,
+    "id_col": null,
+    "log1p": false,
+    "low_auc_threshold": 0.6,
+    "matrix": "./data/processed/log2_sf_norm_rsem_expected_counts.tsv",
+    "matrix_scale": "log2_size_factor_normalized_rsem_expected_counts",
+    "min_per_class": 2,
+    "output_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/gene_screen",
+    "sample_sheet": "./config/sample_sheet.csv",
+    "skip_distortion_candidates": false,
+    "skip_summary_figures": false,
+    "strong_auc_threshold": 0.8,
+    "tail_pct": 10.0
+  },
+  "created_utc": "2026-06-13T02:37:37.588413+00:00",
+  "extra": {
+    "candidate_comparison": {
+      "high_task": "DOX@24h",
+      "low_task": "DOX@4h"
+    },
+    "ddr_gene_set_source": "./figure5/source_data/ddr_genes_frozen.txt",
+    "matrix_scale": "log2_size_factor_normalized_rsem_expected_counts",
+    "matrix_transform": {
+      "log1p_applied_in_loader": false
+    },
+    "outputs_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/gene_screen",
+    "summary_figures_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/gene_screen/figures"
+  },
+  "input_files": {
+    "matrix": {
+      "path": "./data/processed/log2_sf_norm_rsem_expected_counts.tsv",
+      "sha256": "7220b877ced235f483544df4901bd0d245dc87ec849b8d878e4e71a44b357fe8",
+      "size_bytes": 10480566
+    },
+    "sample_sheet": {
+      "path": "./config/sample_sheet.csv",
+      "sha256": "4e944a03b93ce5059cb8c3647be3153d4d6e65f01712c75eb1e7c96eb7d1572a",
+      "size_bytes": 1994
+    }
+  },
+  "platform": "Linux-4.18.0-425.19.3a.el8.x86_64-x86_64-with-glibc2.28",
+  "python_executable": "python3",
+  "script_files": {
+    "fig6_gene_screen.py": {
+      "path": "./figure5/fig6_gene_screen.py",
+      "sha256": "dcc738fccffee9eef6302c9c4baff3b24aa89c9c423237f8ec27dd71c54dfa12",
+      "size_bytes": 31587
+    },
+    "fig6_ml_core.py": {
+      "path": "./figure5/fig6_ml_core.py",
+      "sha256": "34b3f7ba011d163f428f45c536ae31a4185fb37a34e46ad0b6ad3fcd7ae39753",
+      "size_bytes": 30336
+    }
+  },
+  "software_versions": {
+    "matplotlib": "3.6.3",
+    "numpy": "1.24.0",
+    "pandas": "1.5.3",
+    "python": "3.11.8",
+    "scikit_learn": "1.1.3",
+    "scipy": "1.14.1"
+  },
+  "task_specs": [
+    {
+      "context_col": "cpt_level",
+      "description": "Sample-level MYC classification at 4 h within Dox-positive, matched CPT backgrounds.",
+      "include_in_main": true,
+      "label_col": "myc",
+      "name": "MYC@4h",
+      "negative_label": "None_MYC",
+      "positive_label": "MYC",
+      "subset_mode": "myc_task",
+      "time_h": 4
+    },
+    {
+      "context_col": "cpt_level",
+      "description": "Sample-level MYC classification at 24 h within Dox-positive, matched CPT backgrounds.",
+      "include_in_main": true,
+      "label_col": "myc",
+      "name": "MYC@24h",
+      "negative_label": "None_MYC",
+      "positive_label": "MYC",
+      "subset_mode": "myc_task",
+      "time_h": 24
+    },
+    {
+      "context_col": "myc",
+      "description": "Sample-level Dox classification at 4 h in the no-CPT arm, used as a control task.",
+      "include_in_main": false,
+      "label_col": "dox",
+      "name": "DOX@4h",
+      "negative_label": "None_Dox",
+      "positive_label": "Dox",
+      "subset_mode": "dox_task",
+      "time_h": 4
+    },
+    {
+      "context_col": "myc",
+      "description": "Sample-level Dox classification at 24 h in the no-CPT arm, used as a control task.",
+      "include_in_main": false,
+      "label_col": "dox",
+      "name": "DOX@24h",
+      "negative_label": "None_Dox",
+      "positive_label": "Dox",
+      "subset_mode": "dox_task",
+      "time_h": 24
+    }
+  ],
+  "working_directory": "./figure5"
+}

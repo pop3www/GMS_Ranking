@@ -1,0 +1,23 @@
+annotation,level,color
+TopSet,MYC targets,#FFB3B5
+TopSet,mTORC1,#F2BB97
+TopSet,G2M checkpoint,#DAC584
+TopSet,p53 pathway,#BBCF85
+TopSet,Glycolysis,#95D69A
+TopSet,Apoptosis,#70D9B8
+TopSet,OXPHOS,#61D8D6
+TopSet,E2F targets,#7CD2EE
+TopSet,DNA replication,#AAC8FC
+TopSet,ROS pathway,#D4BBFC
+TopSet,DNA repair,#F1B2EE
+TopSet,ATR/replication stress,#FFAFD5
+Band,head,#D01C8B
+Time,4 h,#80B1D3
+Time,24 h,#FDB462
+State,Ctrl,#66C2A5
+State,D,#FC8D62
+State,Tam,#8DA0CB
+State,DT,#E78AC3
+CPT,No CPT,#BDBDBD
+CPT,Low CPT,#FDBF6F
+CPT,High CPT,#E31A1C

@@ -1,0 +1,57 @@
+{
+  "arguments": {
+    "cv_scheme": "leave_one_sample_out",
+    "include_control_summary": true,
+    "input_scale": null,
+    "model": "ridge_logistic",
+    "output_dir": null,
+    "run_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean",
+    "show_pvalues": false,
+    "tasks": [
+      "MYC@4h",
+      "MYC@24h"
+    ]
+  },
+  "created_utc": "2026-06-13T02:37:42.612437+00:00",
+  "extra": {
+    "main_figure": "./figure5/outputs/20260612_221803_count_primary_full_clean/manuscript_assets/figures/figure6_metric_first_main.png",
+    "main_metric_rows": 2,
+    "output_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean/manuscript_assets",
+    "run_dir": "./figure5/outputs/20260612_221803_count_primary_full_clean"
+  },
+  "input_files": {
+    "metrics_all_models": {
+      "path": "./figure5/outputs/20260612_221803_count_primary_full_clean/summary/metrics_all_models.csv",
+      "sha256": "031a5e235fc3eadc92106a02bf77bc77c03c74f7c4f4a78a87acef3209140dd8",
+      "size_bytes": 3312
+    },
+    "task_membership_summary": {
+      "path": "./figure5/outputs/20260612_221803_count_primary_full_clean/summary/task_membership_summary.csv",
+      "sha256": "f33e669b8c594401784f428b2525a71190619349457863832e0032241d63a4bf",
+      "size_bytes": 342
+    }
+  },
+  "platform": "Linux-4.18.0-425.19.3a.el8.x86_64-x86_64-with-glibc2.28",
+  "python_executable": "python3",
+  "script_files": {
+    "build_fig6_manuscript_assets.py": {
+      "path": "./figure5/build_fig6_manuscript_assets.py",
+      "sha256": "0cd90172c5de8d5e9e10d3c4b55231e2bf3792bcb76c5f9660bdfab97fb74d14",
+      "size_bytes": 25250
+    },
+    "fig6_ml_core.py": {
+      "path": "./figure5/fig6_ml_core.py",
+      "sha256": "34b3f7ba011d163f428f45c536ae31a4185fb37a34e46ad0b6ad3fcd7ae39753",
+      "size_bytes": 30336
+    }
+  },
+  "software_versions": {
+    "matplotlib": "3.6.3",
+    "numpy": "1.24.0",
+    "pandas": "1.5.3",
+    "python": "3.11.8",
+    "scikit_learn": "1.1.3",
+    "scipy": "1.14.1"
+  },
+  "working_directory": "./figure5"
+}

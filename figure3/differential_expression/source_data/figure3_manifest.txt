@@ -1,0 +1,11 @@
+created: 2026-06-16 17:00:51.688731
+de_results: ./figure3/differential_expression/source_data/unified_de_results.csv
+representative_contrast: DT_vs_D_24h
+early_contrast_for_panelE: DT_vs_D_4h
+methods: DESeq2, edgeR, limma/voom, RankProd, PenDA, RankCompV3
+fdr: 0.05
+lfc_min: 0.58
+Panel D uses harmonized signed method scores; white text is used on dark positive cells.
+RankCompV3 is the REO-family method used in place of the integrated REO-family comparison.
+Panel E uses per-gene IQR across rank-normalized signed method scores; head is top 10% of matched-control baseline expression.
+Calling rule: methods with p/q values use FDR plus effect-size threshold; direction-only calls are used only when a precomputed method lacks p/q values.
