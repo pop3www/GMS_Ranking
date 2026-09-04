@@ -1,10 +1,8 @@
 # Sustained MYC activation reveals head-constrained transcriptome distortion
 
-This repository contains the analysis and figure-generation code associated with the manuscript **“Sustained MYC activation reveals head-constrained transcriptome distortion”** (iScience manuscript **ISCIENCE-D-26-10474**).
+This repository contains the analysis and figure-generation code associated with the manuscript **“Sustained MYC activation reveals head-constrained transcriptome distortion”** (Under review by iScience).
 
-The release is organized according to the final manuscript figures and includes processed analysis inputs, source-data tables, provenance records, executable workflow entry points, and manuscript-numbered display files. Most analyses begin from processed RSEM-derived expression matrices; this repository is not intended to reproduce primary sequencing-data processing from raw reads.
-
-**Peer-review release:** `v1.0.0-iscience-review`
+The release is organized according to the final manuscript figures and includes processed analysis inputs, source-data tables, provenance records, executable workflow entry points, and manuscript-numbered display files.
 
 ## Scientific scope
 
@@ -62,16 +60,9 @@ The datasets underlying the manuscript are deposited in the NCBI Gene Expression
 - **ChIP-seq:** [GSE318271](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318271)
 - **SuperSeries:** [GSE318586](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318586)
 
-Only the bulk RNA-seq and ChIP-seq datasets listed above were used in this study. Anonymous reviewer tokens are supplied through Editorial Manager while the GEO records remain private and are not stored in this repository.
-
 Processed expression matrices are included under `data/processed/`. Large raw sequencing files and public genome-reference files are not versioned here. Figure S1 is supplied with its final display and accession-level provenance; full reconstruction of its promoter-context profiles from raw GEO files requires the corresponding ChIP-seq preprocessing workflow and is not automated in this concise release.
 
 The principal analyses use RSEM expected counts, method-specific differential-expression workflows, rank-normalized signed method scores, robust baseline-expression slopes, GENCODE transcription-unit spans, and leakage-controlled classifier evaluation. Module-specific dependency files are retained with the relevant workflows. Some analyses require substantial memory and runtime, so figure-level execution is recommended.
 
 The manuscript-used displays are archived under `final_outputs/`, and file checksums are provided in `SHA256SUMS.txt`.
-
-## Related work and citation
-
-Construction and reporter-level validation of the Tet3G/MYC–ER perturbation system are described in Jha et al., **“Dynamic supercoiling sponsors transcription amplification by MYC”** (bioRxiv; DOI: [10.64898/2026.01.19.700398](https://doi.org/10.64898/2026.01.19.700398)). The present repository supports the distinct system-wide analyses of doxycycline priming, head-constrained transcriptome distortion, and structured analytical convergence and divergence.
-
 Citation metadata are provided in [`CITATION.cff`](CITATION.cff). Scientific correspondence should be directed to the corresponding authors listed in the manuscript; code-related questions may be submitted through the GitHub issue tracker.
